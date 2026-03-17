@@ -12,6 +12,13 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://reparatio.app"
   spec.license       = "MIT"
 
+  spec.metadata = {
+    "homepage_uri"    => spec.homepage,
+    "source_code_uri" => "https://github.com/jfrancis42/reparatio-sdk-rb",
+    "bug_tracker_uri" => "https://github.com/jfrancis42/reparatio-sdk-rb/issues",
+    "changelog_uri"   => "https://github.com/jfrancis42/reparatio-sdk-rb/blob/main/CHANGELOG.md"
+  }
+
   spec.required_ruby_version = ">= 3.0"
 
   spec.files         = Dir["lib/**/*.rb", "README.md", "LICENSE"]
